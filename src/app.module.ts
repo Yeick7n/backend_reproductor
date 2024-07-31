@@ -8,8 +8,7 @@ import { AutoresModule } from './autores/autores.module';
 import { PlayListsModule } from './play-lists/play-lists.module';
 import { GenerosModule } from './generos/generos.module';
 import { UsuariosModule } from './usuarios/usuarios.module';
-import { LoginModule } from './login/login.module';
-import { LoginsModule } from './logins/logins.module';
+import { LogueosModule } from './logueos/logueos.module';
 
 @Module({
   imports: [
@@ -29,8 +28,7 @@ import { LoginsModule } from './logins/logins.module';
     PlayListsModule,
     GenerosModule,
     UsuariosModule,
-    LoginModule,
-    LoginsModule],
+    LogueosModule],
   controllers: [AppController],
   providers: [AppService],
 })
